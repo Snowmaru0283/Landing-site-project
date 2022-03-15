@@ -421,15 +421,19 @@ footer {
         background-position: center;
     }
     .fourth {
+        align-items: flex-start;
         padding-top: 3rem;
-        justify-content: center;
+        justify-content: flex-start;
     }
     .sign-up {
-        width: 100%;
+        width: auto;
         justify-content: center;
         align-items: center;
     }
     .contacts {
         font-size: .8rem;
+    }
+    .content {
+        min-width: 12rem;
     }
 }
