@@ -211,7 +211,7 @@ a {
     color: #FFF;
     display: flex;
     flex-direction: column;
-    max-width: 40%;
+    max-width: 25rem;
     min-width: 15rem;
     margin-bottom: 1rem;
 }
@@ -228,7 +228,7 @@ a {
 }
 
 .email2 {
-    width: 100%;
+    min-width: 22rem;
     border-radius: .2rem;
     padding: 0.8rem;
     outline-style: none;
@@ -239,7 +239,8 @@ a {
 
 .sign-up {
     height: 5rem;
-    width: 40%;
+    max-width: 20rem;
+    min-width: 15rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -375,6 +376,11 @@ footer {
     header {
         padding: 1rem;
     }
+    .fourth {
+        align-items: center;
+        padding: 3rem 0 3rem 0;
+        justify-content: center;
+    }
     .fifth {
         padding: 3rem;
     }
@@ -420,13 +426,8 @@ footer {
         background-size: cover;
         background-position: center;
     }
-    .fourth {
-        align-items: flex-start;
-        padding-top: 3rem;
-        justify-content: flex-start;
-    }
     .sign-up {
-        width: auto;
+        width: 100%;
         justify-content: center;
         align-items: center;
     }
@@ -434,6 +435,6 @@ footer {
         font-size: .8rem;
     }
     .content {
-        min-width: 12rem;
+        align-items: center;
     }
 }
