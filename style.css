@@ -211,12 +211,14 @@ a {
     color: #FFF;
     display: flex;
     flex-direction: column;
-    max-width: 25rem;
+    max-width: 40%;
     min-width: 15rem;
     margin-bottom: 1rem;
+    padding-right: 5%;
 }
 
 .content h2 {
+    width: 100%;
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 1rem;
@@ -228,8 +230,8 @@ a {
 }
 
 .email2 {
-    min-width: 22rem;
     border-radius: .2rem;
+    min-width: 100%;
     padding: 0.8rem;
     outline-style: none;
     border-style: none;
@@ -239,11 +241,11 @@ a {
 
 .sign-up {
     height: 5rem;
-    max-width: 20rem;
-    min-width: 15rem;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .submit2 {
@@ -401,9 +403,6 @@ footer {
     .submit {
         width: 100%;
     }
-    .email2 {
-        width: 10rem;
-    }
     .inputs {
         margin-top: 3rem;
         justify-content: center;
@@ -427,7 +426,7 @@ footer {
         background-position: center;
     }
     .sign-up {
-        width: 100%;
+        width: 80%;
         justify-content: center;
         align-items: center;
     }
@@ -435,11 +434,8 @@ footer {
         font-size: .8rem;
     }
     .content {
-        width: 100%;
+        padding: 0rem;
         align-items: center;
-        justify-content: flex-start;
-    }
-    .content p {
-        max-width: 93%;
+        justify-content: center;
     }
 }
